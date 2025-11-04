@@ -8,7 +8,7 @@
     <title>WDD 131 - Dynamic Web Fundamentals - José Roberto Hernández Peña</title>
 
     <link rel="stylesheet" href="styles/base.css">
-    <script></script>
+    <script src="scripts/getdates.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals - José Roberto Hernández Peña</span>
         <nav class="navigation">
             <ul>
                 <li><a href="" target="_blank">LinkedIn</a></li>
@@ -29,28 +29,53 @@
     </header>
     <main>
         <h1>José Roberto Hernández Peña</h1>
+
         <section class="card about-me">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem magni atque consectetur, dolorum nulla velit? Eum accusamus, quo fugit beatae, minima quas odio tempora amet eveniet asperiores officia natus magnam qui aliquid iusto delectus maiores est commodi nisi optio perspiciatis. Facilis eaque voluptas numquam architecto deserunt rem libero aspernatur.</p>
-            <img src="" alt="">
-            <h3>Querétaro, México</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, exercitationem earum, nam praesentium corporis blanditiis esse voluptatem nostrum fuga cumque, fugiat tempora! Quod nisi unde nam magni reprehenderit omnis, culpa incidunt nulla autem esse consectetur officia suscipit asperiores quae ducimus officiis cum obcaecati veritatis deserunt accusantium optio et sequi? Quaerat?</p>
-            <figure>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" alt="Flag of México" width="200">
-                <figcaption>Official Flag of México</figcaption>
-            </figure>
+            <div class="about-me__content-wrapper">
+
+                    <p>My name is Roberto Hernandez. I'm originally from Mexico City but am currently living here in Querétaro.
+
+                By profession, I am a Data Analyst for a global nutrition company, where I enjoy diving into complex
+                datasets to uncover
+                business insights. A good example of my work is a recent project where I developed a call volume
+                forecast for a large
+                call centre. This involved analysing a detailed, three-year dataset—broken down into 30-minute intervals
+                across multiple
+                languages and agent skills—to accurately predict future trends. I primarily work within the Microsoft
+                ecosystem to build
+                practical, enterprise-level solutions.
+
+                Outside of my professional life, I like to maintain a healthy balance. I'm an avid runner, I enjoy
+                exploring my creative
+                side through cooking, and I always have some music on in the background.</p>
+                    
+                    <img src="images/profile image.jpg" alt="Profile image of José Roberto Hernández Peña" width="150" class="profile-picture">
+                    
+                    <h3>Querétaro, México</h3>
+
+                    <div class="location">
+                    <figure>
+                        <img src="images/Flag_of_Mexico.svg.png" alt="Flag of México" width="150">
+                        <figcaption>Official Flag of México</figcaption>
+                    </figure>
+                    
+                    <p>Santiago de Querétaro is a city in central Mexico. It’s known for its well-preserved Spanish colonial architecture such as a striking pink stone aqueduct. Notable baroque buildings include Santa Rosa de Viterbo church. The nearby ochre San Francisco church is in Zenea Garden, the city’s main square. In the old church convent, the Querétaro Regional Museum displays pre-Hispanic, colonial and republican artifacts.</p>
+                </div>
+            </div>
         </section>
-            <section class="card resources">
+
+        <section class="card resources">
                 <h2>Web Dev Resources</h2>
-                <ul>
-                    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
-                    <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
-                    <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
-                    <li><a href="https://caniuse.com/" target="_blank">Can I use...</a></li>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs</a></li>
+                        <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+                        <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+                        <li><a href="https://caniuse.com/" target="_blank">Can I use...</a></li>
             </section>
     </main>
     <footer>
-        <p>&copy; <span id="currentyear"></span> José Roberto Hernández Peña</p>
+        <p>&copy; <span id="currentyear"></span> José Roberto Hernández Peña | México</p>
         <p id="lastModified"></p>
     </footer>
 </body>

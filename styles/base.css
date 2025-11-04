@@ -37,7 +37,6 @@ header span {
 }
 
 .navigation {
-    padding: 16px;
     width: 100%;
     background-color: var(--block-background);
 }
@@ -51,11 +50,105 @@ header span {
 .navigation ul li {
     flex: 1 1 auto;
     text-align: center;
+    padding: 0px;
 }
 
-a {
+.navigation a {
     text-decoration: none;
     color: var(--text-color);
     font-weight: 600;
+    display: block;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+}
+.navigation a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Main Content Styles */
+
+main {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 2fr 1fr;
+    margin: 16px auto;
+    padding: 16px;
+    max-width: 1200px;
+}
+h1 {
+    margin-bottom: 16px;
+    text-align: center;
+}
+.card {
+    background-color: var(--block-background);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+    background-color: var(--primary-color);
+    border-radius: 8px 8px 0 0;
+    color: white;
+    margin-bottom: 12px;
     padding: 8px;
+    text-align: center;
+    width: 100%;
+}
+
+/* First card */
+.about-me {
+    grid-column: 1 / 2;
+}
+.about-me__content-wrapper {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 2fr 1fr;
+    padding: 16px;
+}
+.profile-picture {
+    align-self: start;
+    justify-self: center;
+}
+h3 {
+    border-bottom: var(--primary-color) 2px solid;
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+.location {
+    display: grid;
+    gap: 12px;
+    grid-column: 1 / 2;
+    grid-template-columns: auto auto;
+}
+.location figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Second card */
+.resources {
+    grid-column: 2 / 3;
+}
+.resources ul {
+    list-style-type: none;
+    padding: 16px;
+}
+.resources ul li a {
+    color: var(--text-color);
+    font-weight: 500;
+    text-decoration: none;
+}
+.resources ul li a:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+/* Footer Styles */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 16px;
+    text-align: center;
 }
