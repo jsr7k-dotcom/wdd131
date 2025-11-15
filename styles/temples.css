@@ -1,9 +1,9 @@
 :root {
-  --primary-color: rgb(3, 3, 117);
+  --primary-color: #0D47A1;
   --accent-color: #f0f0f0;
   --text-color: #222;
   --max-width: 900px;
-  --font-family: "Nunito", sans-serif;
+  --font-family: "Roboto", sans-serif;
 }
 
 * {
