@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Page - Paris France - Doris Uchechukwu Anakwuba</title>
+    <meta name="author" content="José Roberto Hernández Peña">
+    <meta name="description" content="WDD 131 - Country Page for José Roberto Hernández Peña Assignment">
+    <link rel="stylesheet" href="styles/place.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Paris, France</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/tour-eiffel.webp 400w, images/tour-eiffel.webp 800w" sizes="(max-width: 600px) 400px, 800px" type="image/webp">
+                <img src="images/tour-eiffel.webp" alt="Eiffel Tower in Paris, France">
+            </picture>
+
+            <div class="data-card">
+                <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 105.4 sq km</li>
+                    <li><strong>Population:</strong> 2,102,650</li>
+                    <li><strong>Capital:</strong> Paris</li>
+                    <li><strong>Languages:</strong> French</li>
+                    <li><strong>Currency:</strong> Euro (€)</li>
+                    <li><strong>Time Zone:</strong> UTC+1 / UTC+2 (Summer)</li>
+                    <li><strong>Calling Code:</strong> +33</li>
+                    <li><strong>Internet TLD:</strong> .fr</li>
+                </ul>
+            </div>
+
+            <div class="weather-card">
+                <h2 class="weather-title">Weather 
+                    <svg class="weather-icon" width="20" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 18a6 6 0 100-12 6 6 0 000 12z" fill="#FFD54F"/>
+                        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="#FFD54F" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </h2>
+                <ul>
+                    <li><strong>Temperature:</strong> <span id="temperature"></span>°C</li>
+                    <li><strong>Conditions:</strong> Partly Sunny</li>
+                    <li><strong>Wind:</strong> <span id="wind"></span> km/h</li>
+                    <li><strong>Wind Chill:</strong> <span id="windchill"></span>°C</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> José Roberto Hernández Peña | Querétaro, México</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
