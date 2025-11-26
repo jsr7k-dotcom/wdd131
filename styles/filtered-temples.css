@@ -31,7 +31,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 1rem;
     position: relative;
@@ -58,7 +58,7 @@ nav li {
 
 nav a {
     background-color: var(--btn-bg);
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     padding: 0.6rem 1.2rem;
     border-radius: 12px;
@@ -101,7 +101,7 @@ h2#gallery-heading {
 }
 
 figure {
-    background: white;
+    background: #ffffff;
     border-radius: 0.5rem;
     overflow: hidden;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
@@ -127,7 +127,7 @@ figure figcaption {
 
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: #ffffff;
     text-align: center;
     padding: 1rem;
 }
@@ -140,7 +140,7 @@ footer {
     display: none;
     background: none;
     border: none;
-    color: white;
+    color: #ffffff;
     font-size: 2rem;
     cursor: pointer;
     position: absolute;

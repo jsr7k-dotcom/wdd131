@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
             imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
         },
         {
-            templeName: "Mexico City Mexico",
+            templeName: "Mexico City Temple",
             location: "Mexico City, Mexico",
             dedicated: "1983, December, 2",
             area: 116642,
@@ -72,6 +72,20 @@ document.addEventListener("DOMContentLoaded", () => {
             dedicated: "1893, April, 6",
             area: 382207,
             imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg"
+        },
+        {
+            templeName: "Oaxaca Mexico Temple",
+            location: "Oaxaca, Mexico",
+            dedicated: "2000, March, 11",
+            area: 10700,
+            imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/oaxaca-mexico-temple/oaxaca-mexico-temple-9661.jpg"
+        },
+        {
+            templeName: "Puebla Mexico Temple",
+            location: "Puebla, Mexico",
+            dedicated: "2024, May, 19",
+            area: 35865,
+            imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/puebla-mexico-temple/puebla-mexico-temple-46342-main.jpg"
         }
     ];
 
