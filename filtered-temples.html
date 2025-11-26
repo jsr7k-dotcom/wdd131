@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WDD 131 - Filtered Temple Picture Album - José Roberto Hernández Peña</title>
+    <meta name="author" content="José Roberto Hernández Peña" />
+    <meta name="description"
+        content="WDD 131 - Filtered Temple Picture Album for José Roberto Hernández Peña Week04 Assignment" />
+    <link rel="stylesheet" href="styles/filtered-temples.css" />
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="scripts/filtered-temples.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu-button" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle Menu">☰</button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#" data-filter="home">Home</a></li>
+                <li><a href="#" data-filter="old">Old</a></li>
+                <li><a href="#" data-filter="new">New</a></li>
+                <li><a href="#" data-filter="large">Large</a></li>
+                <li><a href="#" data-filter="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="gallery-heading">All Temples</h2>
+    </main>
+
+    <footer>
+        <p>© <span id="year-now"></span> José Roberto Hernández Peña | Querétaro, México </p>
+        <p id="page-update"></p>
+    </footer>
+</body>
+
+</html>
