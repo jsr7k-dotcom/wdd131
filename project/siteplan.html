@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="José Roberto Hernández Peña">
+    <title>Site Plan - RH / DSGN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/siteplan.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>RH / DSGN — Site Plan</h1>
+        <p class="tagline">I build the engine (Dev) and I drive the traffic (Marketing).</p>
+    </header>
+
+    <section>
+        <h2>Site Name</h2>
+        <p><strong>RH / DSGN</strong></p>
+        <p>This name reflects the purpose of the website: showcasing my skills, works and qualifications as a freelance
+            Web Developer and community manager towards building my personal brand.</p>
+    </section>
+
+    <section>
+        <h2>Site Purpose</h2>
+        <p>The website serves as a dual-portfolio and service hub. It needs to demystify the technical side of
+            development while showcasing the ROI (Return on Investment) of marketing.</p>
+    </section>
+
+    <section>
+        <h2>Scenarios</h2>
+        <ul>
+            <li>The Small Business Owner: "I need a website, but I don't know how to get people to visit it. Can you
+                handle the tech AND the Instagram ads so I don't have to hire two agencies?"</li>
+            <li>The Creative Agency Lead: "I have a great design, but I need a developer who understands aesthetics and
+                won't break the layout. Can you code pixel-perfect designs"</li>
+            <li>The Startup Founder: "We need a raw, fast MVP (Minimum Viable Product). Can you build it quickly without
+                it looking generic?"</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Color Scheme</h2>
+
+        <p><strong>Background Color:</strong> #F0F0F0 (Raw Concrete) — Main canvas. Not pure white (too clean), gives a
+            raw paper feel.</p>
+        <div class="color-box raw-concrete"></div>
+
+        <p><strong>Foreground Color:</strong> #111111 (Ink Black) — Text, heavy 3px borders, structural grids.</p>
+        <div class="color-box ink-black"></div>
+
+        <p><strong>Primary Color:</strong> #D92B2B (Bauhaus Red) — CTAs, hover states, urgent alerts.</p>
+        <div class="color-box bauhaus-red"></div>
+
+        <p><strong>Secondary Color:</strong> #002FA7 (International Klein Blue) — Tech elements, code snippets, links.
+        </p>
+        <div class="color-box intl-k-blue"></div>
+
+        <p><strong>Accent Color:</strong> #FFD700 (Warning Yellow) — Highlights, badges, energetic geometric shapes.</p>
+        <div class="color-box w-yellow"></div>
+
+        <p>I plan to use these colors for my headings, section borders, and visual highlights.</p>
+    </section>
+
+    <section>
+        <h2>Typography</h2>
+        <ul>
+            <li><strong>Heading Font:</strong> Space Grotesk — used for all page headings (h1, h2, h3).</li>
+            <li><strong>Body Font:</strong> Public Sans — used for paragraphs and general text.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Wireframes</h2>
+
+        <h3>Mobile Wireframe</h3>
+        <pre class="wireframe">
++=========================================+
+| [LOGO]                       [HAMBURGER]| <-- Standard mobile nav pattern.
++=========================================+     Icon must be thick/bold.
+|                                         |
+|  HERO HEADLINE (Large, wrapped):        |
+|  THE HYBRID                             |
+|  DEVELOPER.                             |
+|                                         |
++=========================================+
+| (TOP PANEL - Blue Accent)               |
+|                                         |
+|    I BUILD THE ENGINE.              |
+|                                         |
+|   [ Technical Icon (Centered) ]         |
+|                                         |
+|   > Clean Code & Performance.           |
+|                                         |
+|   [ SEE DEV WORK (Full Width) ]         | <-- Button stretches full width.
+|                                         |
++=========================================+ <-- Thick divider between sections.
+| (BOTTOM PANEL - Raw Grey)               |
+|                                         |
+|    I DRIVE THE TRAFFIC.             |
+|                                         |
+|   [ Marketing Icon (Centered) ]         |
+|                                         |
+|   > Strategy & Growth.                  |
+|                                         |
+|   [ SEE GROWTH CASE (Full Width) ]      |
+|                                         |
++=========================================+
+| Ticker Tape (Scrolling):                |
+| HTML5 • REACT • SEO • ADS •             |
++=========================================+
+|                                         |
+|  CORE SERVICES                      |
+|                                         |
++-----------------------------------------+
+| 01. DEV                                 |
+| [Description & Price]                   |
++-----------------------------------------+
+| 02. SOCIAL                              |
+| [Description & Price]                   |
++-----------------------------------------+
+| 03. HYBRID PACK (Red BG)                | <-- Still prominent even stacked.
+| * BEST VALUE * |
+| [Description]                           |
+| [ GET QUOTE BUTTON ]                    |
++-----------------------------------------+
+        </pre>
+
+        <h3>Desktop Wireframe</h3>
+        <pre class="wireframe">
++---------------------------------------------------------------+
+| LOGO (Bold)    [Services]  [Work]  [About]      [ LET'S TALK ]|
++---------------------------------------------------------------+
+|                                                               |
+|  +---------------------------------------------------------+  |
+|  |  HERO SECTION:                                          |  |
+|  |  (Large Kinetic Typography - Marquee effect)            |  |
+|  |                                                         |  |
+|  |  WEB DEVELOPER  X  SOCIAL STRATEGIST                    |  |
+|  |  WEB DEVELOPER  X  SOCIAL STRATEGIST                    |  |
+|  +---------------------------------------------------------+  |
+|                                                               |
++---------------------------+-----------------------------------+
+|                           |                                   |
+|   (Left Column - 40%)     |      (Right Column - 60%)         |
+|   BACKGROUND: BLUE        |      BACKGROUND: RAW GREY         |
+|                           |                                   |
+|   +-------------------+   |      "I build digital             |
+|   | [ Image/Photo ]   |   |       engines that                |
+|   | [  With Hard  ]   |   |       actually run."              |
+|   | [   Shadow    ]   |   |                                   |
+|   +-------------------+   |      > Full Stack Code            |
+|                           |      > Content Marketing          |
+|                           |      > Brand Growth               |
+|                           |                                   |
+|                           |      +---------------------+      |
+|                           |      |  VIEW PORTFOLIO [->]|      |
+|                           |      +---------------------+      |
+|                           |                                   |
++---------------------------+-----------------------------------+
+|                                                               |
+|  [Ticker Tape: HTML5 • CSS3 • SEO • INSTAGRAM • REACT • ADS ] |
+|                                                               |
++---------------------------------------------------------------+
+        </pre>
+
+    </section>
+
+        <footer>
+        <p>© 2025 José Roberto Hernández Peña</p>
+    </footer>
+
+</body>
+
+</html>
