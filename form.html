@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product review page composed of a form where the user can send their review.">
+    <title>Product Review</title>
+    <meta name="author" content="José Roberto Hernández Peña">
+
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-mobile.css">
+    <script src="scripts/form.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <h1>Product Review</h1>
+</header>
+
+<main>
+    <form method="get" action="review.html" class="wf1">
+
+        <!-- SELECT -->
+        <label for="product">Product Name</label>
+        <select id="product" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+        </select>
+
+        <!-- RADIOS -->
+        <div class="stars">
+            <label for="one">Overall Rating</label>
+
+            <div id="radio">
+                <label for="one">&star;
+                    <input type="radio" id="one" name="stars" value="1" required>
+                </label>
+
+                <label for="two">&star;&star;
+                    <input type="radio" id="two" name="stars" value="2" required>
+                </label>
+
+                <label for="three">&star;&star;&star;
+                    <input type="radio" id="three" name="stars" value="3" required>
+                </label>
+
+                <label for="four">&star;&star;&star;&star;
+                    <input type="radio" id="four" name="stars" value="4" required>
+                </label>
+
+                <label for="five">&star;&star;&star;&star;&star;
+                    <input type="radio" id="five" name="stars" value="5" required>
+                </label>
+            </div>
+        </div>
+
+        <!-- DATE -->
+        <label for="dateOfInstallation">Date of Installation</label>
+        <input type="date" name="installation" id="dateOfInstallation" required>
+
+        <!-- CHECKBOXES -->
+        <div id="check">
+            <span>Which features did you find useful in the product?</span>
+            <div>(Check all that apply)</div>
+
+            <label for="durability">
+                <input type="checkbox" id="durability" name="durability"> Durability
+            </label>
+
+            <label for="easeOfUse">
+                <input type="checkbox" id="easeOfUse" name="easeOfUse"> Ease of Use
+            </label>
+
+            <label for="performance">
+                <input type="checkbox" id="performance" name="performance"> Performance
+            </label>
+
+            <label for="design">
+                <input type="checkbox" id="design" name="design"> Design
+            </label>
+        </div>
+
+        <!-- TEXTAREA -->
+        <label for="written">Written Review <i>(optional)</i></label>
+        <textarea id="written" name="writtenReview"></textarea>
+
+        <!-- TEXT INPUT -->
+        <label for="name">Your Name <i>(optional)</i></label>
+        <input type="text" id="name" name="userName">
+
+        <!-- BUTTON -->
+        <input type="submit" value="Post Review">
+
+    </form>
+</main>
+
+<footer>
+    <p>&copy; <span id="currentyear"></span>José Roberto Hernández Peña | Querétaro, México</p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

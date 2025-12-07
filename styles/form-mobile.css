@@ -1,0 +1,7 @@
+@media (max-width: 450px) {
+    #radio {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* opcional para que no se vea raro cuando hagan wrap */
+    }
+}

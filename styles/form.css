@@ -1,0 +1,167 @@
+:root {
+    --primary-color: #f3f3f3; /* Vanilla */
+    --secondary-color: #54095b; /* Rose Taupe - Morado Oscuro */
+    --accent1-color: #000000; /* Cowhide Cocoa */
+    --accent2-color: #f1e8d1fa;
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Source Sans 3", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*--------------HEADER----------------*/
+header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+body {
+    background-color: var(--accent2-color);
+}
+
+/*--------------FORM SECTION----------------*/
+.wf1 {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.wf1 label {
+    display: block;
+    padding: 5px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+}
+
+.wf1 select,
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 input[type="textarea"],
+.wf1 input[type="submit"] {
+    margin-top: 5px;
+}
+
+label i {
+    color: #070f51;
+}
+
+
+/*----------------SELECT------------------*/
+.wf1 select {
+    display: block;
+    height: 2rem;
+    width: 100%;
+    max-width: 380px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+
+/*----------------RADIO------------------*/
+
+.stars {
+    padding: 1rem 0 1rem 0;
+}
+
+#radio {
+    display: flex;
+    gap: 40px;
+}
+
+#radio label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: block;
+    accent-color: #cdcdcd;
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+}
+
+
+/*----------------DATE------------------*/
+input[type="date"] {
+    display: block;
+    height: 2rem;
+    width: 100%;
+    max-width: 380px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+
+
+/*----------------CHECKBOX------------------*/
+
+#check {
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+    padding: 1rem 0 1rem 0;
+}
+
+#check div {
+    color: #000000;
+    font-size: 1rem;
+    font-style: oblique;
+}
+
+#check label {
+    display: block;
+    font-size: 1rem;
+}
+
+#check input[type="checkbox"] {
+    accent-color: #cdcdcd;
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+/*----------------TEXTAREA------------------*/
+.wf1 textarea {
+    display: block;
+    height: 5rem;
+    width: 100%;
+    width: 380px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+
+/*----------------TEXT------------------*/
+input[type="text"] {
+    display: block;
+    height: 2rem;
+    width: 100%;
+    max-width: 380px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+
+/*----------------BUTTON------------------*/
+input[type="submit"] {
+    display: block;
+    height: 2rem;
+    width: 100%;
+    max-width: 380px;
+    border: solid 1px #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/*--------------FOOTER----------------*/
+footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--body-font);
+    padding: 1rem;
+}
