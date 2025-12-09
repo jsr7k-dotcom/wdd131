@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="styles/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     <script defer src="scripts/script.js"></script>
+    <script defer src="scripts/works.js"></script>
 </head>
 <body>
     <header class="site-header">
@@ -23,32 +24,27 @@
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <section class="hero-laptop">
-            <div class="hero-content">
-                <h1>I BUILD THE ENGINE.<br>I DRIVE THE TRAFFIC.</h1>
-                <p class="hero-sub">Front-End Development + Performance Marketing</p>
-                <a href="services.html" class="brutalist-btn btn-yellow">EXPLORE SERVICES</a>
-            </div>
 
-            <div class="laptop-container">
-                <div class="laptop-screen">
-                    <div class="screen-content">
-                        <img src="images/webpage-mockup.png" alt="Website on Laptop">
-                    </div>
-                </div>
-                <div class="laptop-base"></div>
-            </div>
+    <main>
+        <section class="works-header">
+            <h1><span style="font-size: 0.5em; display:block; margin-bottom:10px;">&lt; BACK TO WORKS</span> SELECTED
+                CASES</h1>
         </section>
 
-        <div class="ticker-wrap">
-            <div class="ticker">
-                <div class="ticker-item">HTML5 • CSS3 • JS • INSTAGRAM ADS • SHOPIFY • GOOGLE ANALYTICS • COPYWRITING • FACEBOOK ADS • SEO •</div>
+        <div class="works-controls">
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="development">Dev</button>
+                <button class="filter-btn" data-filter="marketing">Growth</button>
+            </div>
+            <div class="saved-counter">
+                SAVED: <span id="savedCount">0</span>
             </div>
         </div>
-    </main>
 
+        <div id="project-container">
+        </div>
+    </main>
 
     <footer class="site-footer">
         <p>&copy; <span id="year-now"></span> José Roberto Hernández Peña | México</p>
