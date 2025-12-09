@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const platform = document.querySelector('input[name="platform"]:checked').value;
             
             // LINKS
-            const myPhone = "+15550199876";
-            const myZoom = "https://zoom.us/j/your-id";
+            const myPhone = "+524462300008";
+            const myZoom = "https://us05web.zoom.us/j/84342376042?pwd=lpkyZc5HwYBAMdBtwkZagayqofwiK5.1";
             const myMeet = "https://meet.google.com/smr-bcqn-qdx";
 
             if(platform === 'phone') window.location.href = `tel:${myPhone}`;
